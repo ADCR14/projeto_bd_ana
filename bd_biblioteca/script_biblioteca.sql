@@ -7,5 +7,13 @@ cpf  varchar(45),
 pk int 
 );
 
+create table sala(
+pk int,
+qtd_aluno int,
+numero varchar(5)
+);
 
-
+create table turma(
+pk int,
+nome varchar(45)
+);
